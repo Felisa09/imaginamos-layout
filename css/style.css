@@ -1,0 +1,201 @@
+@font-face {
+	font-family: "Brandon_light";
+	src: url(../fonts/Brandon_light.otf) format("OpenType");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Brandon_bld";
+	src: url(../fonts/Brandon_bld.otf) format("OpenType");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Brandon_blk";
+	src: url(../fonts/Brandon_blk.otf) format("OpenType");
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	background-color: #fbfbfb;
+}
+
+
+header .logo {
+	top: 0;
+    margin-top: 45px;
+    max-width: 300px;
+}
+header img {
+	position: absolute;
+	width: 100%;
+}
+nav ul li a {
+	color: #fff;
+	font-family: "Brandon_blk";
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+nav ul {
+	float: right;
+	margin-top: 50px;
+} 
+li {
+	float: left;
+	list-style: none;
+	margin-left: 10px;
+}
+
+a:hover {
+	color: #3bb2df;
+	text-decoration: none;
+}
+.head {
+	position: absolute;
+	z-index: 1;
+}
+
+.back img {
+	position: absolute;
+	max-width: 100%
+
+}
+.backBlue {
+	margin-top: 250px;
+}
+.btn-menu {
+	border-radius: 4px;
+	border: 2px solid #fff;
+	padding: 6px 5px 3px 24px; 
+	background-repeat: no-repeat;
+	background-position: 3px 3px;
+	opacity: .6;
+	
+}
+.btn-enterprise {
+	background-image: url(../img/enterprise-icon.png);
+}
+.btn-enterprise:hover {
+	background-color: #3bb2df;
+	border-color: #3bb2df;
+	opacity: 1;
+	color: #fff;
+}
+.btn-startup {
+	background-image: url(../img/startup-icon.png);
+}
+.btn-startup:hover {
+	background-color: #4fd08f;
+	border-color: #4fd08f;
+	opacity: 1;
+	color: #fff;
+}
+.backWhite {
+	height: 1000px;
+	background-color: #fdfbfb;
+}
+.backPurple {
+	background-image: url(../img/purple.png);
+	background-repeat: no-repeat;
+	max-width: 100%;
+	height: 650px;
+
+}
+.backClients {
+	background-color: red;
+	height: 323px;
+}
+.gallery {
+	height: 530px;
+	background-color: blue;
+}
+.people {
+	background-image: url(../img/people.png);
+	background-repeat: no-repeat;
+	height: 280px;
+	max-width: 100%;
+}
+
+.colors 	{
+	height: 100px;
+	width: 180px;
+	float: left;
+}
+.colors:hover {
+	height: 150px;
+	margin-top:-25px; 
+
+}
+.violet {
+	background-color: #d500f9;
+}
+.blue {
+	background-color: #536dfe;
+}
+.green {
+	background-color: #64dd17;
+}
+.orange {
+	background-color: #ff8f00;
+}
+.purple {
+	background-color: #5e35b1;
+}
+.top {
+	color: #fff;
+}
+.top h1 {
+	font-family: "Brandon_light";
+	font-size: 2em;
+	text-transform: uppercase;
+}
+.top h2 {
+	font-family: "Brandon_blk";
+	font-size: 7.2em;
+	text-transform: uppercase;	
+}
+.top h3 {
+	font-family: "Brandon_light";
+	font-size: 2em;
+}
+button {
+	font-family: "Brandon_blk"; 
+	color: #fff;
+	text-transform: uppercase;
+}
+button.join {
+	margin-top: 30px;
+	background-color: #4fd08f;
+	border-radius: 100px;
+	font-size: 1.5em;
+	padding: 15px;
+}
+button.join:hover {
+	background-color: #3bb2df;
+	color: #fff;
+}
+.top p {
+	font-family: "Brandon_blk";
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	margin-left: 390px;
+}
+.top img {
+	width: 25px;
+	margin-right: 5px; 
+}
+.backWhite header {
+	margin-top: 100px;
+	font-family: "Brandon_blk";
+	text-transform: uppercase;
+
+}
+.backWhite header h4 {
+	color: #00b0ff;
+	text-align: center;
+}

@@ -1,0 +1,136 @@
+@font-face {
+	font-family: "Brandon_light";
+	src: url(../fonts/Brandon_light.otf) format("OpenType");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Brandon_bld";
+	src: url(../fonts/Brandon_bld.otf) format("OpenType");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Brandon_blk";
+	src: url(../fonts/Brandon_blk.otf) format("OpenType");
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	background-color: #fbfbfb;
+}
+a, button {
+	text-transform: uppercase;
+	font-family: "Brandon_blk"
+}
+a:hover {
+	text-decoration: none;
+}
+.home-section {
+	background-image: url(../img/blue.png);
+}
+.home-section img {
+	margin-top: 50px;
+}
+.home-section nav ul{
+	float: right;
+	margin-top: 60px;
+}
+.home-section nav ul li {
+	list-style: none;
+	display: inline;
+	margin-left: 15px;
+}
+.home-section nav ul li a {
+	color: #fff;
+	font-family: "Brandon_blk";
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+.home-section .btn-menu {
+	border-radius: 4px;
+	border: 2px solid #fff;
+	padding: 12px 17px 12px 24px; 
+	background-repeat: no-repeat;
+	background-position: 3px 8px;
+	background-color: transparent;
+	opacity: .6;
+	text-transform: uppercase;
+	color: #fff;
+}
+.home-section .btn-enterprise {
+	background-image: url(../img/enterprise-icon.png);
+}
+.home-section .btn-enterprise:hover {
+	background-color: #3bb2df;
+	border-color: #3bb2df;
+	opacity: 1;
+	color: #fff;
+}
+.home-section .btn-startup {
+	background-image: url(../img/startup-icon.png);
+}
+.home-section .btn-startup:hover {
+	background-color: #4fd08f;
+	border-color: #4fd08f;
+	opacity: 1;
+	color: #fff;
+}
+article.info, aside.mobile {
+	margin-top: 180px;
+}
+article.info {
+	color: #fff;
+}
+article.info h1, h2 {
+	text-transform: uppercase;
+}
+article.info h1, h3 {
+	font-family: "Brandon_light";
+	font-size: 1.5em;
+}
+article.info h2 {
+	font-size: 6em;
+	font-family: "Brandon_blk"
+}
+.btn-join {
+	margin-top: 30px;
+	background-color: #4fd08f;
+	border-radius: 100px;
+	border: 2px solid #4fd08f;
+	font-size: 1.2em;
+	padding: 15px;
+
+}
+.btn-join:hover {
+	background-color: #3bb2df;
+	border: 2px solid #3bb2df;
+	color: #fff;
+}
+.colors{
+	height: 100px;
+	width: 180px;
+	float: left;
+}
+.colors:hover {
+	height: 150px;
+	margin-top:-25px; 
+}
+.violet{
+	background-color: #d500f9;
+}
+.blue {
+	background-color: #536dfe;
+}
+.green {
+	background-color: #64dd17;
+}
+.orange {
+	background-color: #ff8f00;
+}
+.purple {
+	background-color: #5e35b1;
+}
