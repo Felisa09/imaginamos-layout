@@ -34,11 +34,11 @@ h4, h5, h6 {
 }
 h4 {
 	font-family: "Brandon_blk";
-	font-size: 1.5em;
+	font-size: 1.7em;
 }
 h5 {
 	font-family: "Brandon_light";
-	font-size: 3em;	
+	font-size: 2.5em;	
 }
 
 .home-section {
@@ -133,14 +133,11 @@ h5 {
 	width: 18px;
 }
 .team-section header {
-	text-transform: uppercase;
 	text-align: center;
 	margin-top: 50px;
 }
 .team-section h4 {
-	font-family: "Brandon_blk";
 	color: #3bb2df;
-	font-size: 1.5em;
 }
 .team-section h5 {
  	color: #78909c;
@@ -150,14 +147,15 @@ h5 {
 	text-align: center;
 }
 .team-section img {
-	width: 300px;
+	width: 350px;
 	height: 150px;
 	border-radius: 8px;
-	margin-left: 15px;
+	margin-left: 25px;
+	
 }
 .team-section img:hover {
-	width: 350px;
-	height: 175px;
+	height: 180px;
+	margin-top: -15px;
 }
 .product-section {
 	background-image: url(../img/purple.png);
@@ -232,27 +230,101 @@ h5 {
 	font-size: 1.3em;
 	color: #92acb6;
 }
-.footer-section .colors {
+.partner-section {
+	text-align: center;
+}
+.partner-section header {
+	    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.partner-section h4 {
+	color: #536dfe;
+}
+.partner-section h5 {
+	color: #78909c;
+}
+.partner-section .item {
+	border: 1px solid #c4cfd4;
+	opacity: .5;
+}
+.partner-section .item:hover {
+	box-shadow: 0px 0px 20px #c4cfd4;
+	opacity: 1;
+}
+.portfolio-section {
+
+}
+
+.feedback-section {
+	background-image: url(../img/people.png);
+}
+.feedback-section .feedback {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	height: 100px;
+}
+.feedback-section h5, .feedback-section h6, .feedback-section p {
+	color: #fff;
+}
+.feedback-section p, .feedback-section aside h6 {
+	font-family: "Brandon_light"
+}
+.feedback-section p {
+	font-size: 1.3em;
+}
+.feedback-section p.author {
+	font-family: "Brandon_bld";
+}
+.feedback-section aside h5 {
+	font-family: "Brandon_blk";
+	font-size: 1.8em;
+	
+	line-height: 1px;
+}
+.feedback-section aside h6 {
+	font-size: 2.3em;
+}
+.feedback-section .item {
+	margin-top: 5px;
+}
+.feedback-section .item img {
+	width: 9%;
+}
+
+.feedback-section .color-foot header {
+	margin-top: 50px;
+	text-align: center;
+	margin-bottom: 50px;
+	background-color: #fdfbfb;
+}
+.feedback-section .color-foot h4 {
+	color: #7285fe;
+}
+.feedback-section .color-foot h5 {
+	color: #78909c;
+}
+
+.feedback-section .colors {
 	height: 100px;
 	width: 190px;
 	float: left;
 }
-.footer-section .colors:hover {
+.feedback-section .colors:hover {
 	height: 150px;
 	margin-top:-25px; 
 }
-.footer-section .violet{
+.feedback-section .violet{
 	background-color: #d500f9;
 }
-.footer-section .blue {
+.feedback-section .blue {
 	background-color: #536dfe;
 }
-.footer-section .green {
+.feedback-section .green {
 	background-color: #64dd17;
 }
-.footer-section .orange {
+.feedback-section .orange {
 	background-color: #ff8f00;
 }
-.footer-section .purple {
+.feedback-section .purple {
 	background-color: #5e35b1;
 }
