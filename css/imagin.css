@@ -29,6 +29,18 @@ a, button {
 a:hover {
 	text-decoration: none;
 }
+h4, h5, h6 {
+	text-transform: uppercase;
+}
+h4 {
+	font-family: "Brandon_blk";
+	font-size: 1.5em;
+}
+h5 {
+	font-family: "Brandon_light";
+	font-size: 3em;	
+}
+
 .home-section {
 	background-image: url(../img/blue.png);
 }
@@ -79,24 +91,24 @@ a:hover {
 	opacity: 1;
 	color: #fff;
 }
-article.info, aside.mobile {
+.home-section article.info, aside.mobile {
 	margin-top: 180px;
 }
-article.info {
+.home-section article.info {
 	color: #fff;
 }
-article.info h1, h2 {
+.home-section article.info h1, h2 {
 	text-transform: uppercase;
 }
-article.info h1, h3 {
+.home-section article.info h1, h3 {
 	font-family: "Brandon_light";
 	font-size: 1.5em;
 }
-article.info h2 {
+.home-section article.info h2 {
 	font-size: 6em;
 	font-family: "Brandon_blk"
 }
-.btn-join {
+.home-section .btn-join {
 	margin-top: 30px;
 	background-color: #4fd08f;
 	border-radius: 100px;
@@ -105,7 +117,7 @@ article.info h2 {
 	padding: 15px;
 
 }
-.btn-join:hover {
+.home-section .btn-join:hover {
 	background-color: #3bb2df;
 	border: 2px solid #3bb2df;
 	color: #fff;
@@ -131,10 +143,8 @@ article.info h2 {
 	font-size: 1.5em;
 }
 .team-section h5 {
-	font-family: "Brandon_light";
  	color: #78909c;
- 	font-size: 3em;
-}
+ }
 .team-section main {
 	margin-top: 25px;
 	text-align: center;
@@ -157,26 +167,17 @@ article.info h2 {
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
-.product-section header h4, h5, h6 {
-	text-transform: uppercase;
-}
+
 .product-section header h4, h5 {
 	color: #fff;
 }
-.product-section header h4 {
-	font-family: "Brandon_blk";
-	font-size: 1.5em;
-}
-.product-section header h5 {
-	font-family: "Brandon_light";
-	font-size: 2.5em;
-}
+
 .product-section article  {
 	width: 430px;
 	height: 500px;
 	background-color: #f3f6f8;
 	border-radius: 8px;
-
+	margin-bottom: 70px;
 }
 .product-section article.box-left {
 	float: left;
@@ -189,12 +190,10 @@ article.info h2 {
 	margin-left: 120px;
     margin-top: 200px;
 }
-.product-section div.title h5, h6 {
-	font-family: "Brandon_blk";
-	
-}
+
 .product-section div.title h5 {
 	font-size: 1.3em;
+	font-family: "Brandon_blk"
 }
 .product-section .navy h5 {
 	color: #5078ed;
@@ -205,8 +204,13 @@ article.info h2 {
 }
 .product-section div.title h6 {
 	color: #597a96;
-	font-size: 1.6em;
+	font-size: 1.5em;
 	margin-top: -10px;
+}
+.product-section .header-title {
+	border-bottom-style: dotted;
+	border-bottom-color: #d9dee5;
+	margin-bottom: 20px;
 }
 .product-section .header-title button {
 	margin-top: 10px;
@@ -220,30 +224,35 @@ article.info h2 {
 	background-color: #4fd08f;
 	border: 2px solid #4fd08f;
 }
-.product-section article p {
-	border-top-style: dotted;
+.product-section .title {
+	margin-bottom: 20px;
 }
-.colors{
+.product-section p {
+	font-family: "Brandon_light";
+	font-size: 1.3em;
+	color: #92acb6;
+}
+.footer-section .colors {
 	height: 100px;
-	width: 180px;
+	width: 190px;
 	float: left;
 }
-.colors:hover {
+.footer-section .colors:hover {
 	height: 150px;
 	margin-top:-25px; 
 }
-.violet{
+.footer-section .violet{
 	background-color: #d500f9;
 }
-.blue {
+.footer-section .blue {
 	background-color: #536dfe;
 }
-.green {
+.footer-section .green {
 	background-color: #64dd17;
 }
-.orange {
+.footer-section .orange {
 	background-color: #ff8f00;
 }
-.purple {
+.footer-section .purple {
 	background-color: #5e35b1;
 }
