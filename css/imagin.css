@@ -32,7 +32,7 @@ a:hover {
 .home-section {
 	background-image: url(../img/blue.png);
 }
-.home-section img {
+.home-section article img {
 	margin-top: 50px;
 }
 .home-section nav ul{
@@ -109,6 +109,119 @@ article.info h2 {
 	background-color: #3bb2df;
 	border: 2px solid #3bb2df;
 	color: #fff;
+}
+.home-section p {
+	text-align: center;
+	font-family: "Brandon_light";
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom: 30px;
+}
+.home-section footer img {
+	width: 18px;
+}
+.team-section header {
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 50px;
+}
+.team-section h4 {
+	font-family: "Brandon_blk";
+	color: #3bb2df;
+	font-size: 1.5em;
+}
+.team-section h5 {
+	font-family: "Brandon_light";
+ 	color: #78909c;
+ 	font-size: 3em;
+}
+.team-section main {
+	margin-top: 25px;
+	text-align: center;
+}
+.team-section img {
+	width: 300px;
+	height: 150px;
+	border-radius: 8px;
+	margin-left: 15px;
+}
+.team-section img:hover {
+	width: 350px;
+	height: 175px;
+}
+.product-section {
+	background-image: url(../img/purple.png);
+}
+.product-section header {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.product-section header h4, h5, h6 {
+	text-transform: uppercase;
+}
+.product-section header h4, h5 {
+	color: #fff;
+}
+.product-section header h4 {
+	font-family: "Brandon_blk";
+	font-size: 1.5em;
+}
+.product-section header h5 {
+	font-family: "Brandon_light";
+	font-size: 2.5em;
+}
+.product-section article  {
+	width: 430px;
+	height: 500px;
+	background-color: #f3f6f8;
+	border-radius: 8px;
+
+}
+.product-section article.box-left {
+	float: left;
+}
+.product-section article.box-right {
+	float: right;
+}
+.product-section div.box-center {
+	width: 10px;
+	margin-left: 120px;
+    margin-top: 200px;
+}
+.product-section div.title h5, h6 {
+	font-family: "Brandon_blk";
+	
+}
+.product-section div.title h5 {
+	font-size: 1.3em;
+}
+.product-section .navy h5 {
+	color: #5078ed;
+}
+.product-section .indigo h5 {
+	font-size: 1.3em;
+	color: #673ab7;
+}
+.product-section div.title h6 {
+	color: #597a96;
+	font-size: 1.6em;
+	margin-top: -10px;
+}
+.product-section .header-title button {
+	margin-top: 10px;
+	border: 2px solid #5078ed;
+	border-radius: 4px;
+	background-color: #5078ed;
+	padding: 10px;
+	color: #fff;
+}
+.product-section .header-title button:hover {
+	background-color: #4fd08f;
+	border: 2px solid #4fd08f;
+}
+.product-section article p {
+	border-top-style: dotted;
 }
 .colors{
 	height: 100px;
