@@ -254,6 +254,15 @@ h5 {
 .portfolio-section {
 
 }
+.portfolio-section .image-wrapper {
+	background-color: #7788fc;
+}
+.portfolio-section .image-wrapper img {
+	/*ingresar tamaño exacto!*/
+}
+.portfolio-section .image-wrapper img:hover {
+	opacity: .3;
+}
 
 .feedback-section {
 	background-image: url(../img/people.png);
@@ -290,11 +299,10 @@ h5 {
 .feedback-section .item img {
 	width: 9%;
 }
-
 .feedback-section .color-foot header {
-	margin-top: 50px;
+	padding-top: 50px;
 	text-align: center;
-	margin-bottom: 50px;
+	padding-bottom: 70px;
 	background-color: #fdfbfb;
 }
 .feedback-section .color-foot h4 {
@@ -303,7 +311,9 @@ h5 {
 .feedback-section .color-foot h5 {
 	color: #78909c;
 }
-
+.feedback-section .color-foot section {
+	margin-top: -45px;
+}
 .feedback-section .colors {
 	height: 100px;
 	width: 190px;
@@ -327,4 +337,43 @@ h5 {
 }
 .feedback-section .purple {
 	background-color: #5e35b1;
+}
+.feedback-section nav {
+	padding: 50px 0;
+}
+.feedback-section nav ul {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.feedback-section nav ul li {
+	list-style: none;
+    display: inline;
+}
+.feedback-section nav ul li a {
+	color: #fff;
+	font-size: 1.2em;
+	opacity: .6;
+	border-right: 1px solid #fff;
+	padding: 0 10px;
+}
+.feedback-section nav ul li a:hover {
+	opacity: 1;
+}
+.feedback-section .foot p, .feedback-section h6 {
+	font-family: "Brandon_blk";
+	text-align: center;
+	font-size: 1.2em;
+}
+.feedback-section h6, .feedback-section footer p {
+	text-transform: uppercase;
+}
+.feedback-section .foot article {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.feedback-section footer {
+	margin-bottom: 10px;
+}
+.feedback-section .foot footer p {
+	font-size: 1em;
 }
