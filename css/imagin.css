@@ -45,11 +45,11 @@ h5 {
 	background-image: url(../img/blue.png);
 }
 .home-section article img {
-	margin-top: 50px;
+	margin-top: 16%;
 }
 .home-section nav ul{
 	float: right;
-	margin-top: 60px;
+	margin-top: 8.5%;
 }
 .home-section nav ul li {
 	list-style: none;
@@ -92,7 +92,7 @@ h5 {
 	color: #fff;
 }
 .home-section article.info, aside.mobile {
-	margin-top: 180px;
+	margin-top: 19%;
 }
 .home-section article.info {
 	color: #fff;
@@ -109,7 +109,7 @@ h5 {
 	font-family: "Brandon_blk"
 }
 .home-section .btn-join {
-	margin-top: 30px;
+	margin-top: 10%;
 	background-color: #4fd08f;
 	border-radius: 100px;
 	border: 2px solid #4fd08f;
@@ -127,14 +127,43 @@ h5 {
 	font-family: "Brandon_light";
 	text-transform: uppercase;
 	color: #fff;
-	margin-bottom: 30px;
+	margin-bottom: 3%;
 }
 .home-section footer img {
 	width: 18px;
 }
+
+.sales-section .sales-header {
+	background-image: url(../img/type.png);
+}
+
+.sales-section .stats-item {
+	color: white;
+	padding-left: 3%;
+}
+
+.sales-section .sales-image {
+	margin-top: -18%;
+	float: right;
+	border-radius: 4px;
+}
+
+.sales-section .sales-aside {
+	height: 217px;
+}
+
+.sales-section .sales-aside-btn-container {
+	height: 50%;
+}
+
+.sales-section .sales-aside-btn{
+	margin-left: 10%;
+	margin-top: 20%;
+}
+
 .team-section header {
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 4%;
 }
 .team-section h4 {
 	color: #3bb2df;
@@ -143,8 +172,9 @@ h5 {
  	color: #78909c;
  }
 .team-section main {
-	margin-top: 25px;
+	margin-top: 3%;
 	text-align: center;
+	margin-bottom: 3%;
 }
 .team-section img {
 	width: 350px;
@@ -162,8 +192,8 @@ h5 {
 }
 .product-section header {
 	text-align: center;
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-top: 3%;
+	margin-bottom: 3%;
 }
 
 .product-section header h4, h5 {
@@ -175,7 +205,7 @@ h5 {
 	height: 500px;
 	background-color: #f3f6f8;
 	border-radius: 8px;
-	margin-bottom: 70px;
+	margin-bottom: 7%;
 }
 .product-section article.box-left {
 	float: left;
@@ -203,15 +233,15 @@ h5 {
 .product-section div.title h6 {
 	color: #597a96;
 	font-size: 1.5em;
-	margin-top: -10px;
+	margin-top: -4%;
 }
 .product-section .header-title {
 	border-bottom-style: dotted;
 	border-bottom-color: #d9dee5;
-	margin-bottom: 20px;
+	margin-bottom: 5%;
 }
 .product-section .header-title button {
-	margin-top: 10px;
+	margin-top: 2%;
 	border: 2px solid #5078ed;
 	border-radius: 4px;
 	background-color: #5078ed;
@@ -234,8 +264,8 @@ h5 {
 	text-align: center;
 }
 .partner-section header {
-	    margin-top: 50px;
-    margin-bottom: 50px;
+	margin-top: 3%;
+    margin-bottom: 3%;
 }
 .partner-section h4 {
 	color: #536dfe;
@@ -254,22 +284,36 @@ h5 {
 .portfolio-section {
 
 }
-.portfolio-section .image-wrapper {
-	background-color: #7788fc;
+.portfolio-section .global img {
+	width: 394px;
+    height: 560px;
 }
-.portfolio-section .image-wrapper img {
-	/*ingresar tamaño exacto!*/
+.portfolio-section img:hover {
+	opacity: .6;
+	background-color: red;
 }
-.portfolio-section .image-wrapper img:hover {
-	opacity: .3;
+.portfolio-section .adn img {
+	width: 876px;
+    height: 214px;
 }
-
+.portfolio-section .vintage img {
+	width: 445px;
+    height: 346px;
+}
+.portfolio-section .you img {
+	width: 263px;
+    height: 214px
+}
+.portfolio-section .mobile img {
+	width: 263px;
+    height: 346px;
+}
 .feedback-section {
 	background-image: url(../img/people.png);
 }
 .feedback-section .feedback {
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-top: 3%;
+	margin-bottom: 7%;
 	height: 100px;
 }
 .feedback-section h5, .feedback-section h6, .feedback-section p {
@@ -300,9 +344,9 @@ h5 {
 	width: 9%;
 }
 .feedback-section .color-foot header {
-	padding-top: 50px;
+	padding-top: 2%;
 	text-align: center;
-	padding-bottom: 70px;
+	padding-bottom: 5%;
 	background-color: #fdfbfb;
 }
 .feedback-section .color-foot h4 {
@@ -314,14 +358,21 @@ h5 {
 .feedback-section .color-foot section {
 	margin-top: -45px;
 }
+.feedback-section .container-full {
+ position: absolute;
+    width: 100%;
+    left: 0;
+}
 .feedback-section .colors {
 	height: 100px;
 	width: 190px;
 	float: left;
+	position: relative;
+	margin-top:12%;
 }
 .feedback-section .colors:hover {
 	height: 150px;
-	margin-top:-25px; 
+	margin-top: 9.9%; 
 }
 .feedback-section .violet{
 	background-color: #d500f9;
@@ -339,7 +390,7 @@ h5 {
 	background-color: #5e35b1;
 }
 .feedback-section nav {
-	padding: 50px 0;
+	padding: 3% 0;
 }
 .feedback-section nav ul {
 	text-align: center;
@@ -354,7 +405,7 @@ h5 {
 	font-size: 1.2em;
 	opacity: .6;
 	border-right: 1px solid #fff;
-	padding: 0 10px;
+	padding: 0 1%;
 }
 .feedback-section nav ul li a:hover {
 	opacity: 1;
@@ -368,11 +419,11 @@ h5 {
 	text-transform: uppercase;
 }
 .feedback-section .foot article {
-	margin-top: 30px;
-	margin-bottom: 50px;
+	margin-top: 5%;
+	margin-bottom: 3%;
 }
 .feedback-section footer {
-	margin-bottom: 10px;
+	margin-bottom: 1%;
 }
 .feedback-section .foot footer p {
 	font-size: 1em;

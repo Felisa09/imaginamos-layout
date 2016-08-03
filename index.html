@@ -53,42 +53,56 @@
 			<img src="" alt="" class="col-md-4">
 		</main>
 	</section>
-	<section class="col-md-12 sales-section">
-		<header>
-			<ul>
-				<li>
+	<section class="sales-section">
+		<header class="col-md-12 sales-header">
+			<div class="col-md-4"></div>
+			<div class="col-md-8">
+				<div class="stats-item col-md-3">
 					<h3>+350</h3>
-					<h4>apps</h4>
-				</li>
-				<li>
+					<h5>apps</h5>
+				</div>
+				<div class="stats-item col-md-3">
 					<h3>+250</h3>
-					<h4>colaboradores</h4>
-				</li>
-				<li>
+					<h5>colaboradores</h5>
+				</div>
+				<div class="stats-item col-md-3">
 					<h3>+4700</h3>
-					<h4>proyectos<br>desarrollados</h4>
-				</li>
-				<li>
+					<h5>proyectos<br>desarrollados</h5>
+				</div>
+				<div class="stats-item col-md-3">
 					<h3>10</h3>
-					<h4>años en el<br>mercado</h4>
-				</li>
-			</ul>
+					<h5>años en el<br>mercado</h5>
+				</div>
+			</div>
 		</header>
-		<main>
-			<div class="image-wrapper col-md-4">
-				<img src="" alt="">
+		<main class="col-md-12">
+			<div class="sales-img-wrapper col-md-4">
+				<img class="sales-image" src="img/hipster.jpg" alt="">
 			</div>
 			<article class="col-md-4">
-				<p>Contamos con <b>desarrolladores expertos</b> en<br>nuevas tecnologías</p>
-				<p><b>Desarrollamos grandes ideas</b> en Colombia,<br>España, Estados Unidos, India, Latinoamérica y<br>25 países más. </p>
-				<p><b>Integramos metodologías ágiles</b> que velan por<br>tu rentabilidad y aseguran el éxito de tu<br>proyecto.</p>		
-				<p>Nunca estarás solo. Nuestros equipos te<br>acompañan y contribuyen a tu proyecto en<br>cada paso.</p>	
+				<ul>
+					<li>
+						<p>Contamos con <b>desarrolladores expertos</b> en<br>nuevas tecnologías</p>
+					</li>
+					<li>
+						<p><b>Desarrollamos grandes ideas</b> en Colombia,<br>España, Estados Unidos, India, Latinoamérica y<br>25 países más. </p>
+					</li>
+					<li>
+						<p><b>Integramos metodologías ágiles</b> que velan por<br>tu rentabilidad y aseguran el éxito de tu<br>proyecto.</p>
+					</li>
+					<li>
+						<p>Nunca estarás solo. Nuestros equipos te<br>acompañan y contribuyen a tu proyecto en<br>cada paso.</p>
+					</li>
+				</ul>
 			</article>
-			<aside class="col-md-4">
-				<button>quiero conocer sus productos</button>
-				<button>quiero reunirme con un ejecutivo</button>
+			<aside class="col-md-4 sales-aside">
+				<div class="sales-aside-btn-container">
+					<button class="sales-aside-btn">quiero conocer sus productos</button>
+				</div>
+				<div class="sales-aside-btn-container">
+					<button class="sales-aside-btn">quiero reunirme con un ejecutivo</button>
+				</div>
 			</aside>
-			
 		</main>
 	</section>
 	<section class="col-md-12 product-section">
@@ -175,27 +189,33 @@
 			</a>
 		</main>
 	</section>
-	<section class="col-md-12 portfolio-section">
-		<div class="col-md-4 image-wrapper">
-			<img src="img/global.png" alt="">
+	<section class="container-fluid portfolio-section">
+		<div class="row">
+			<div class="col-md-3 global">
+				<img src="img/global.png" alt="" class="responsive">
+			</div>
+			<div class="col-md-7 row">
+				<div class="col-md-12 adn">
+					<img src="img/adn.png" alt="" class="responsive">
+				</div>
+				<div class="col-md-6 vintage">
+					<img src="img/vintage.png" alt="" class="responsive">
+				</div>
+				<div class="col-md-6 vintage">
+					<img src="img/iphone.png" alt="" class="responsive">
+				</div>
+			</div>
+			<div class="col-md-2">
+				<div class="row you">
+					<img src="img/you.png" alt="" class="responsive">
+				</div>
+				<div class="row mobile">
+					<img src="img/mobile.png" alt="" class="responsive">
+				</div>
+			</div>
 		</div>
-		<div class="col-md-6 image-wrapper">
-			<div class="image-wrapper">
-				<img src="img/atlantica.png" alt="">
-			</div>
-			<div class="image-wrapper">
-				<img src="img/vintage.png" alt="" class="col-md-6">
-				<img src="img/phone.png" alt="" class="col-md-6">
-			</div>
-		</div>
-		<div class="col-md-2 image-wrapper">
-			<div class="image-wrapper">
-				<img src="img/you.png" alt="">
-			</div>
-			<div class="image-wrapper">
-				<img src="img/phone-1.png" alt="">
-			</div>
-		</div>
+		
+		
 	</section>
 
 	<section class="col-md-12 feedback-section">
@@ -224,12 +244,12 @@
 				</div>
 			</main>
 		</div>	
-		<section class="color-foot">
-			<header >
+		<section class=" color-foot">
+			<header class="container-full col-md-12">
 				<h4>tenemos una línea de soluciones que te ayudarán</h4>
 				<h5>a alcanzar el éxito digital</h5>			
 			</header>
-			<section class="container">
+			<section class="container color-box">
 				<div class="colors violet"></div>
 				<div class="colors blue"></div>
 				<div class="colors green"></div>
